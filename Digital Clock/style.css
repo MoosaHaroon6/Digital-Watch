@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(21, 0, 21), rgb(68, 0, 105));
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.dn {
+    display: none;
+}
+
+.parent h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 30px;
+}
+
+.time {
+    font-size: 3rem;
+    padding: 0;
+    margin: 0%;
+}
+
+.parent #banner {
+    text-align: center;
+}
+
+#clock {
+    width: 800px;
+    height: 250px;
+    background-color: rgb(128, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 7em;
+    margin: auto;
+    margin-top: 100px;
+    z-index: 999;
+    border-radius: 5px;
+    color: rgba(255, 166, 0, 0.617);
+}
+
+.box {
+    background-color: rgb(179, 96, 123);
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 220px;
+    z-index: -1;
+}
+
+.box-2 {
+    background-color: rgba(222, 249, 85, 0.608);
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 410px;
+    left: 1020px;
+    z-index: -1;
+}
+
+
+@media only screen and (max-width:600px) {
+    .parent {
+        display: none;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .parent-2 {
+        display: block;
+    }
+
+    .parent-2 h1 {
+        text-align: center;
+        color: chocolate;
+    }
+    .orn {
+        color: chocolate;
+    }
+    .bold{
+        font-weight: bold;
+    }
+
+    #clock-2 {
+        display: block;
+        width: 400px;
+        height: 150px;
+        background-color: rgb(128, 128, 128, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 3rem;
+        margin: auto;
+        margin-top: 100px;
+        z-index: 999;
+        border-radius: 5px;
+        color: rgba(255, 166, 0, 0.617);
+    }
+
+    .box-one {
+        background-color: rgb(179, 96, 123);
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 165px;
+        left: 70px;
+        z-index: -1;
+    }
+
+    .box-two {
+        background-color: rgba(222, 249, 85, 0.608);
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        display: inline-block;
+        position: absolute;
+        top: 305px;
+        left: 465px;
+        z-index: -1;
+    }
+}
